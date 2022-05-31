@@ -22,16 +22,16 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **MUSIC CHAT BOT** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop."
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @SafoTheBot For Support)__
+__(🤐)__
 
 🏷️ **Common Commands**:
-\u2022 `/play` reply to an audio to play or queue it
+\u2022 `/play` reply to an audio to play or queue it **Example** /play lisa money
 \u2022 `/help` shows help for commands
 \u2022 `/playlist` shows the playlist
 \u2022 `/current` shows playing time of current track
-\u2022 `/song` [song name] download the song as audio
+\u2022 `/song` **[song name]** download the song as audio
 
 🏷️ **Admin Commands**:
 \u2022 `/skip` [n] skip current or n where n >= 2
@@ -49,20 +49,19 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
-"""
+🏷️ **Njan: @Lisa_fan_boy** 🇰🇷"""
 
 
 @Client.on_message(filters.command('start'))
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
+        InlineKeyboardButton('MOVIE CHANNEL', url='https://t.me/+2GiKrFbVX5M4NGU1'),
+        InlineKeyboardButton('FRIENDS CHAT GROUP', url='https://t.me/+MJNZC4zm5EYyNDU1'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
+        InlineKeyboardButton('MOVIE GROUP', url='https://t.me/+_wZFgJf2RrIwY2M1'),
+        InlineKeyboardButton('SOURCE CODE', url='https://t.me/+uq8Lft49fz40YmU1'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
