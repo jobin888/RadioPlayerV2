@@ -1,5 +1,5 @@
 pyrogram==1.4.16
-TgCrypto==1.2.2
+tgcalls==0.0.11
 ffmpeg-python
 pytgcalls==0.0.17
 wheel
