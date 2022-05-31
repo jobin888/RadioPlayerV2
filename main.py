@@ -48,7 +48,7 @@ bot.run(main())
 bot.start()
 @bot.on_message(filters.command("restart") & filters.user(Config.ADMINS))
 def restart(client, message):
-    message.reply_text("🔄 **Restarting... Join @AsmSafone!**")
+    message.reply_text("🔄")
     Thread(
         target=stop_and_restart
         ).start()
