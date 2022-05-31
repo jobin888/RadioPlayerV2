@@ -1,10 +1,10 @@
 pyrogram==1.4.16
-tgcrypto
+TgCrypto==1.2.2
 ffmpeg-python
-py-tgcalls==0.8.2
+pytgcalls==0.8.2
 wheel
 psutil
 tgintegration
 youtube-dl
-youtube-search-python
+youtube-search
 requests
